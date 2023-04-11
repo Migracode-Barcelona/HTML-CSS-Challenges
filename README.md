@@ -6,6 +6,12 @@ I’ve done the first part but it is full of mistakes. It’s your job to fix th
 
 You are encouraged to use Google to help you find the answers to these problems.
 
+## 👩‍🔧 To work on the website from inside your CodeSpace or Visual Studio: 
+
+Press Ctrl + Shift + P (Cmd + Shift + P on mac) and type: `CodeSwing: Open Swing...`
+
+Press Enter, when you see `/workspaces/htmlcss-zoo/`, press Enter again. You should see the website preview on the right!
+
 ## 1) Introduction
 
 First of all, we don’t want the logo to have a purple border. The logo has an ID of logo, make sure this has no border.
