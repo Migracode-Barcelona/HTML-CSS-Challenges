@@ -1,34 +1,73 @@
-# HTML/CSS Project
+# Zoo Exercise Instructions
 
-## Introduction
+You have been hired by a zoo to build a website.
 
-- The idea is to build a personal portfolio, that you can use in the future adding all the projects you will do in this amazing course
-- Here an [example](https://kristiinacwalina.github.io/)
+I’ve done the first part but it is full of mistakes. It’s your job to fix them. The client has sent over a list of alterations and recommendations that they want to fix the site with. 
 
-## Steps
+You are encouraged to use Google to help you find the answers to these problems.
 
-The page should **NOT** use any framework like Bootstrap.
+## 👩‍🔧 To work on the website from inside your CodeSpace or Visual Studio: 
 
-### Step 1
+Press Ctrl + Shift + P (Cmd + Shift + P on mac) and type: `CodeSwing: Open Swing...`
 
-This repository should includes a `.html` page and a linked `.css` file applies a consistent color scheme to links and text on your page.
+Press Enter, when you see `/workspaces/htmlcss-zoo/`, press Enter again. You should see the website preview on the right!
 
-You should add:
-- A page header with a title and description for the site.
-- A projects section with three projects, each including a title, summary and a link.
+## 1) Introduction
 
-### Step 2
+First of all, we don’t want the logo to have a purple border. The logo has an ID of logo, make sure this has no border.
 
-- A page footer containing info about you or the site.
-- Proper use of the semantic HTML tags we discussed.
-- Research the `:first-child` pseudo-class and use it to style the first article so that it stands out from the others.
-- **Commit often (with good meaningful commit messages), and Push to Github regularly.**
-- Use the sketch below to guide you towards the layout and content you are trying to achieve. _Please note that this is just a sketch - you can choose the colours, fonts and images that you want to use in the page._
+The first section has a class name of ‘introduction’. Give this section a white background. Add a paragraph to this section with the following text:
 
-  <a href="./.content/blog-sketch-week-1.png" target="blank">
-    <img src="./.content/blog-sketch-week-1.png" style="border: 1px solid #bababa;">
-  </a>
-  
-  ### Step 3
-  
-- Rename your repository to your-user-account.github.io and follow [these instructions](https://migracode-barcelona.gitbook.io/syllabus/guides/git#how-to-publish-your-website-in-githubio) to make it public How to publish with github.io
+‘The zoo is open every day of the year and features three major biomes: the Tropic Zone, Temperate Territory, and the Polar Circle. From tropical birds, to snow leopards, grizzly bears, and one of the nation’s largest colonies of Antarctic penguins, there are animals to enjoy in every season.’
+
+Most of the text on the page is very close together. Increase the amount of space of the text so that there's more breathing space.
+
+## 2) Bears:
+
+All the images of bears have the same border colour, can all these images be given a different border colour?
+
+The images of the bears are also misaligned. Can all these images be vertically aligned to the top of the container.
+
+## 3) Tigers
+
+The purple headings are hard to read on dark backgrounds, change them to a lighter colour. Make sure it passes the WCAG AA standards for contrast. You can use this tool to help: https://webaim.org/resources/contrastchecker/
+
+Change the heading of this section to ‘Tiger Facts’, remove the subheading, and change the ordered list to an unordered list.
+
+## 4) Giraffes
+
+Change the background colour to #483C46, the section titles to #F4743B, and the paragraph color to #BEEE62.
+
+Make the first paragraph have a larger font size.
+
+## 5) News
+
+Can the title of this section be centred in the middle of this page?
+
+Add another news item with the title with today's date, and the title of ‘Which big cat are you?’
+
+## 6) Learning
+
+The buttons are a little hard to read. We’d like the buttons to have larger text, and also to change colour when you hover and focus on them.
+
+We don’t like the hard corners here. Can you give the container in the section some rounded corners?
+
+## 7) Membership
+
+Give the paragraph a maximum width of 700 pixels, and keep in the middle by adjusting the margin.
+
+## 8) Programs
+
+The cards are stacked on top of each other which looks like a poor use of space. Change these so that they display horizontally across the screen.
+
+Make sure all the links open in a new tab.
+
+## 9) Badge
+
+The badge that says ‘Opening 2021’ we’d like to be on the top right instead of the bottom right.
+
+When a user hovers over the badge, add a transition so the change in colour is smoother.
+
+## 10) New section
+
+If you have time, add a new section for your favorite animal.
